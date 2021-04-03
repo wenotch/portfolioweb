@@ -1,0 +1,22 @@
+p {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 300;
+  line-height: 30px;
+  padding-bottom: 40px;
+}
+
+p span {
+  color: #cf7500;
+}
+.nwan {
+  width: 10%;
+}
+.nwaa {
+  width: 30%;
+}
+@media (max-width: 750px) {
+  .k {
+    margin-top: -95px;
+  }
+}

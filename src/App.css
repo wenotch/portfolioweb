@@ -1,0 +1,10 @@
+.app {
+  background-color: #000;
+  height: 100vh;
+  overflow: visible;
+}
+@media (max-width: 750px) {
+  .app {
+    overflow: visible;
+  }
+}
