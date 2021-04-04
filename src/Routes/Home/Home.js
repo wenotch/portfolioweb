@@ -9,7 +9,8 @@ function Home() {
     <div className="container k">
       <div className="leftside">
         <h1>
-          Hello! <br className="break" /> I'm <span>Emmanuel Nwanochie</span>
+          Hello! <br className="break" /> <div className="ss"></div> I'm{" "}
+          <span>Emmanuel Nwanochie</span>
         </h1>
         <h1>I am a Full Stack Web Developer.</h1>
 
@@ -20,7 +21,7 @@ function Home() {
           </Link>
         </IconButton>
       </div>
-      <div className="rightside m" >
+      <div className="rightside m4">
         <img src={HomeImage} alt="nwanochie as a web developer" />
       </div>
     </div>

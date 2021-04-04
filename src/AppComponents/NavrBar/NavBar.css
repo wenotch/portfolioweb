@@ -102,7 +102,7 @@ nav {
 }
 @media (max-width: 750px) {
   nav {
-    padding: 30px 50px;
+    padding: 30px 30px;
   }
   .is-active {
     color: #000 !important;

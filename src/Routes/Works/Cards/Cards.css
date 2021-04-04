@@ -40,13 +40,16 @@
   border-radius: 20px;
 }
 @media (max-width: 750px) {
+  .works{
+    padding: 30px !important;
+  }
   .cards {
-    width: 275px;
+    width: 300px;
     margin-bottom: 20px;
     margin-right: 0 !important;
   }
 
   .cards img {
-    width: 275px;
+    width: 300px;
   }
 }
