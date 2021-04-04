@@ -4,10 +4,24 @@ import HomeImage from "./../../images/nwanoch.jpg";
 import { Link } from "react-router-dom";
 import ArrowRightAltIcon from "@material-ui/icons/ArrowRightAlt";
 import "./About.css";
-
+import { motion } from "framer-motion";
+const containerVariants = {
+  hidden: { x: "-100vw" },
+  visible: { x: 0, transition: { delay: 0, duration: 1 } },
+  exit: {
+    x: "100vw",
+    transition: { ease: "easeInOut" },
+  },
+};
 function About() {
   return (
-    <div className="container k">
+    <motion.div
+      className="container k"
+      variants={containerVariants}
+      initial="hidden"
+      animate="visible"
+      exit="exit"
+    >
       <div className="leftside">
         <h1>
           <span>About me</span>
@@ -36,7 +50,7 @@ function About() {
           alt="nwanochie as a web developer"
         />
       </div>
-    </div>
+    </motion.div>
   );
 }
 

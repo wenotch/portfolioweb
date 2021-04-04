@@ -7,9 +7,24 @@ import Gray2green from "./../../images/gray2green.png";
 import Tinder from "./../../images/tinder.png";
 import Mech from "./../../images/mech.png";
 import Afri from "./../../images/afristudent.png";
+import { motion } from "framer-motion";
+const containerVariants = {
+  hidden: { x: "-100vw" },
+  visible: { x: 0, transition: { delay: 0, duration: 1 } },
+  exit: {
+    x: "100vw",
+    transition: { ease: "easeInOut" },
+  },
+};
 function Works() {
   return (
-    <div className="projects">
+    <motion.div
+      className="projects"
+      variants={containerVariants}
+      initial="hidden"
+      animate="visible"
+      exit="exit"
+    >
       <h1>Projects</h1>
       <div className="works">
         <div className="row">
@@ -79,7 +94,7 @@ Built with "
           />
         </div> */}
       </div>
-    </div>
+    </motion.div>
   );
 }
 
