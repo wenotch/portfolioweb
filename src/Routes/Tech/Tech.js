@@ -4,24 +4,10 @@ import HomeImage from "./../../images/nwanochie-tech.svg";
 import { Link } from "react-router-dom";
 import ArrowRightAltIcon from "@material-ui/icons/ArrowRightAlt";
 import "./Tech.css";
-import { motion } from "framer-motion";
-const containerVariants = {
-  hidden: { x: "-100vw" },
-  visible: { x: 0, transition: { delay: 0, duration: 1 } },
-  exit: {
-    x: "100vw",
-    transition: { ease: "easeInOut" },
-  },
-};
+
 function Tech() {
   return (
-    <motion.div
-      className="container k"
-      variants={containerVariants}
-      initial="hidden"
-      animate="visible"
-      exit="exit"
-    >
+    <div className="container k">
       <div className="leftside">
         <h1 className="techj">
           <span>Technologies</span>
@@ -59,7 +45,7 @@ function Tech() {
       <div className="rightside">
         <img src={HomeImage} alt="nwanochie as a web developer" />
       </div>
-    </motion.div>
+    </div>
   );
 }
 

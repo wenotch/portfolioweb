@@ -7,24 +7,9 @@ import Gray2green from "./../../images/gray2green.png";
 import Tinder from "./../../images/tinder.png";
 import Mech from "./../../images/mech.png";
 import Afri from "./../../images/afristudent.png";
-import { motion } from "framer-motion";
-const containerVariants = {
-  hidden: { x: "-100vw" },
-  visible: { x: 0, transition: { delay: 0, duration: 1 } },
-  exit: {
-    x: "100vw",
-    transition: { ease: "easeInOut" },
-  },
-};
 function Works() {
   return (
-    <motion.div
-      className="projects"
-      variants={containerVariants}
-      initial="hidden"
-      animate="visible"
-      exit="exit"
-    >
+    <div className="projects">
       <h1>Projects</h1>
       <div className="works">
         <div className="row">
@@ -33,7 +18,7 @@ function Works() {
             src={Zentrum}
             text="The official website of zentrum a startup who recently participated in the  acumen rockerfeller foundation 2020   cohort   zentrumit.com"
             title="Zentrum"
-            link="/"
+            link="http://www.zentrumit.com"
             span=" Html, Css and Javascript."
           />
 
@@ -42,7 +27,7 @@ function Works() {
             src={Nwanoch}
             title="Portfolio"
             text="This is my portfolio website. it is currently here. Nwanochie.com "
-            link="/"
+            link="http://nwanoch.herokuapp.com"
             span="Reactjs, MongoDB, Express and Nodejs."
           />
           <Cards
@@ -51,7 +36,7 @@ function Works() {
             title="African Students"
             text="A student organization website, to help establish her online presence.
 Built with "
-            link="/"
+            link="https://africanstudent.herokuapp.com/"
             span=" Html, Css and Javascript."
           />
         </div>
@@ -62,7 +47,7 @@ Built with "
             src={Gray2green}
             title="Gray2green"
             text="A website for a climate activism movement in Nigeria. Built with. Gray2green.org"
-            link="/"
+            link="http://gray2green.org"
             span=" Html, Css and Javascript."
           />
           <Cards
@@ -70,7 +55,7 @@ Built with "
             src={Mech}
             title="Unn Mechanical Conference"
             text="Built for mechanical engineering department University of nigeria nsukka, to facilitate communication of during her 2020 conference. Built with "
-            link="/"
+            link="http://unnmechconf.herokuapp.com/"
             span="Html, Css and Javascript."
           />
           <Cards
@@ -78,7 +63,7 @@ Built with "
             src={Tinder}
             title="Tinder Clone"
             text="Clone of the tinder dating website. made using "
-            link="/"
+            link="#"
             span="Reactjs, MongoDB, Express and Nodejs."
           />
         </div>
@@ -94,7 +79,7 @@ Built with "
           />
         </div> */}
       </div>
-    </motion.div>
+    </div>
   );
 }
 

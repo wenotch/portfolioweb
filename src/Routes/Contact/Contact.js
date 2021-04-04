@@ -7,24 +7,9 @@ import WhatsAppIcon from "@material-ui/icons/WhatsApp";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import EmailIcon from "@material-ui/icons/Email";
-import { motion } from "framer-motion";
-const containerVariants = {
-  hidden: { x: "-100vw" },
-  visible: { x: 0, transition: { delay: 0, duration: 1 } },
-  exit: {
-    x: "100vw",
-    transition: { ease: "easeInOut" },
-  },
-};
 function Contact() {
   return (
-    <motion.div
-      className="container contt k"
-      variants={containerVariants}
-      initial="hidden"
-      animate="visible"
-      exit="exit"
-    >
+    <div className="container contt k">
       <div className="leftside">
         <h1>
           <span>Contact</span>
@@ -69,7 +54,7 @@ function Contact() {
       <div className="rightside">
         <img src={HomeImage} alt="nwanochie as a web developer" />
       </div>
-    </motion.div>
+    </div>
   );
 }
 

@@ -4,24 +4,10 @@ import HomeImage from "./../../images/nwanoch.svg";
 import { Link } from "react-router-dom";
 import ArrowRightAltIcon from "@material-ui/icons/ArrowRightAlt";
 import "./Home.css";
-import { motion } from "framer-motion";
-const containerVariants = {
-  hidden: { x: "-100vw" },
-  visible: { x: 0, transition: { delay: 0, duration: 1 } },
-  exit: {
-    x: "100vw",
-    transition: { ease: "easeInOut" },
-  },
-};
+
 function Home() {
   return (
-    <motion.div
-      className="container k"
-      variants={containerVariants}
-      initial="hidden"
-      animate="visible"
-      exit="exit"
-    >
+    <div className="container k">
       <div className="leftside">
         <h1>
           Hello! <br className="break" /> <div className="ss"></div> I'm{" "}
@@ -39,7 +25,7 @@ function Home() {
       <div className="rightside m4">
         <img src={HomeImage} alt="nwanochie as a web developer" />
       </div>
-    </motion.div>
+    </div>
   );
 }
 
