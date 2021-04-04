@@ -28,6 +28,7 @@
 .inpu input {
   width: 45%;
   background-color: #000;
+  color: white;
   padding: 10px;
   border: none;
 }
@@ -37,6 +38,7 @@ textarea {
   width: 100%;
   background-color: #000;
   height: 100px;
+  color: white;
   border: none;
   margin: 20px auto;
 }

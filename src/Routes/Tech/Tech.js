@@ -18,7 +18,7 @@ function Tech() {
         </p> */}
         <div className="unordered">
           <ul>
-            <li>Javascript/C/C++</li>
+            <li>Javascript/Python/C</li>
             <li>ReactJs</li>
             <li>Nodejs</li>
             <li>Expressjs</li>
