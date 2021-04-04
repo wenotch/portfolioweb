@@ -6,7 +6,7 @@ import ArrowRightAltIcon from "@material-ui/icons/ArrowRightAlt";
 import "./Home.css";
 function Home() {
   return (
-    <div className="container">
+    <div className="container k">
       <div className="leftside">
         <h1>
           Hello! <br className="break" /> I'm <span>Emmanuel Nwanochie</span>
@@ -20,7 +20,7 @@ function Home() {
           </Link>
         </IconButton>
       </div>
-      <div className="rightside">
+      <div className="rightside m" >
         <img src={HomeImage} alt="nwanochie as a web developer" />
       </div>
     </div>
