@@ -73,24 +73,24 @@ function Navbar() {
             </div>
             <div className="socials">
               <IconButton>
-                <Link>
+                <a href="https://www.linkedin.com/in/emmanuel-nwanochie/">
                   <LinkedInIcon fontSize="large" className="conticons" />
-                </Link>
+                </a>
               </IconButton>{" "}
               <IconButton>
-                <Link>
+                <a href="https://wa.link/knvp1r">
                   <WhatsAppIcon fontSize="large" className="conticons" />
-                </Link>
+                </a>
               </IconButton>{" "}
               <IconButton>
-                <Link>
+                <a href="https://web.facebook.com/emmanuel.nwanochie.9">
                   <FacebookIcon fontSize="large" className="conticons" />
-                </Link>
+                </a>
               </IconButton>{" "}
               <IconButton>
-                <Link>
+                <a href="mailto:emmanuelnwanochie247@gmail.com">
                   <EmailIcon fontSize="large" className="conticons" />
-                </Link>
+                </a>
               </IconButton>
             </div>
           </li>
