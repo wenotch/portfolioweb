@@ -13,7 +13,7 @@ function Home() {
           Hello! <br className="break" /> <div className="ss"></div> I'm{" "}
           <span>Emmanuel Nwanochie</span>
         </h1>
-        <h1>I am a Full Stack Web Developer.</h1>
+        <h1>A Full Stack Web Developer.</h1>
 
         <IconButton className="viewbtn">
           <Link className="view phone" to="/works">
