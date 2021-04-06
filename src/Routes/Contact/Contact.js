@@ -39,7 +39,7 @@ function Contact() {
           </a>
         </IconButton>
         <div className="form">
-          <form action="/contact" method="post">
+          {/* <form action="/contact" method="post">
             <div className="inpu">
               <input type="text" placeholder="Name" />
               <input type="email" placeholder="Email" />
@@ -48,7 +48,10 @@ function Contact() {
               <textarea placeholder="Message" />
             </div>
             <button>Send</button>
-          </form>
+          </form> */}
+
+          <div class="powr-form-builder" id="682abb00_1617700324"></div>
+          
         </div>
       </div>
       <div className="rightside">
